@@ -25,7 +25,7 @@ export async function createApolloServer(
   const context = (): TwitterResolverContext => ({
     db,
     dbTweetCache: {},
-    dbTweetToFavouriteCountMap: {},
+    dbTweetToFavoriteCountMap: {},
     dbUserCache: {},
   })
 
